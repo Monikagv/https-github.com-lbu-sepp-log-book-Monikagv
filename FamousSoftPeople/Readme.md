@@ -10,6 +10,12 @@ which developed on-board flight software for NASA's Apollo program. She later fo
 software companies, Higher Order Software in 1976 and Hamilton Technologies in 1986, both 
 in Cambridge, Massachusetts.
 
+Half a century ago, MIT played a critical role in the development of the flight software for NASA’s Apollo program, 
+which landed humans on the Moon for the first time in 1969. One of the many contributors to this effort was Margaret 
+Hamilton, a computer scientist who led the Software Engineering Division of the MIT Instrumentation Laboratory,
+which in 1961 contracted with NASA to develop the Apollo program’s guidance system.
+For her work during this period, Hamilton has been credited with popularizing the concept of software engineering.
+
 # Donald Knuth
 
 Donald Ervin Knuth (born January 10, 1938) is an American 
@@ -25,7 +31,7 @@ object-oriented programming today. He is also noted for his advocacy of precise 
 
 # Richard Stallman
 
-Richard Matthew Stallman (/ˈstɔːlmən/ STAWL-mən; born March 16, 1953), also known by his initials, rms,
+Richard Matthew Stallman (born March 16, 1953), also known by his initials, rms,
 is an American free software movement activist and programmer. He campaigns for software to be distributed in 
 such a manner that its users have the freedom to use, study, distribute, and modify that software. Software which 
 ensures these freedoms is termed free software. Stallman launched the GNU Project, founded the Free Software Foundation
