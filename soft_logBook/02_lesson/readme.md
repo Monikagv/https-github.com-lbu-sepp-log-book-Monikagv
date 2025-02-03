@@ -33,7 +33,191 @@
 * In: create shortcuts or links to files
 * whoami: show your current user name
 
-### A programming language, Java
+## File Commands
+* ls: List files and directories (options: -l for long, -a for all, -h for human-readable sizes).
+* cd: Change the current directory.
+* pwd: Print the current working directory.
+* mkdir: Create a new directory.
+* rm: Remove files or directories (use -r for recursive, -f for force)
+* cp: Copy files or directories (use -r for directories)
+* mv: Move or rename files and directories.
+* touch: Create an empty file or update file timestamps.
+* cat: Display the contents of a file.
+* head: Show the first few lines of a file (use -n to specify the number of lines)
+* tail: Show the last few lines of a file (use -n to specify the number of lines)
+* ln: Create links between files (use -s for symbolic links)
+* find: Search for files and directories (e.g., using -name or -type options)
+
+##  File Permission Commands
+
+* chmod: Change file permissions (use u, g, o, +, -, or =).
+* chown: Change file ownership.
+* chgrp: Change group ownership.
+* umask: Set default file permissions.
+
+## File Compression and Archiving Commands
+
+* tar: Create or extract archive files (options: -c, -x, -f, -v, -z, -j).
+* gzip: Compress files (use -d to decompress).
+* zip: Create compressed zip archives (use -r to include directories recursively)
+
+## Process Management Commands
+
+* ps: Display running processes (e.g., aux shows all processes).
+* top: Monitor system processes in real-time.
+* kill: Terminate a process (use -9 for force).
+* pkill: Kill processes by name.
+* pgrep: List processes by name.
+* grep: Search for patterns in text (various options: -i, -v, -r, -l, -n, etc.)
+
+## System Information Commands
+
+* uname: Print system information (use -a for all details).
+* whoami: Display the current username.
+* df: Show disk space usage (use -h for human-readable sizes).
+* du: Estimate file/directory sizes (use -h and -s for total size).
+* free: Display memory usage (use -h for human-readable format).
+* uptime: Show system uptime.
+* lscpu: Display CPU information.
+* lspci: List PCI devices.
+* lsusb: List USB devices.
+
+## Networking Commands
+
+* ifconfig: Display network interface information.
+* ping: Send ICMP echo requests to check connectivity.
+* netstat: Display network connections and statistics (use -tuln for listening ports).
+* ss: Display network socket information (use -tuln for TCP/UDP sockets).
+* ssh: Securely connect to a remote server.
+* scp: Securely copy files between hosts.
+* wget: Download files from the web.
+* curl: Transfer data to or from a server.
+
+##  IO Redirection Commands#
+
+* cmd < file: Use a file as input for a command.
+* cmd > file: Redirect standard output (stdout) of a command to a file.
+* cmd 2> file: Redirect error output (stderr) of a command to a file.
+* cmd 2>&1: Redirect stderr to the same destination as stdout.
+* cmd1 <(cmd2): Use the output of one command as input for another.
+* cmd > /dev/null: Discard the stdout of a command.
+* cmd &> file: Redirect all output (stdout and stderr) to a file.
+* cmd 1>&2: Redirect stdout to the same destination as stderr.
+* cmd >> file: Append stdout to a file.
+
+##  Environment Variable Commands
+
+* export: Set an environment variable (e.g., export VAR=value).
+* echo: Display the value of an environment variable (e.g., echo $VAR).
+* env: List all environment variables or set one for a specific command.
+* unset: Remove an environment variable.
+* export -p: List all exported environment variables.
+* printenv: Print the values of environment variables.
+
+##  User Management Commands
+
+* who: Show users currently logged in.
+* sudo adduser: Create a new user account.
+* finger: Display information about logged-in users (or a specific user).
+* sudo deluser: Remove a user from a group.
+* last: Show recent login history.
+* sudo userdel -r: Delete a user account along with its home directory.
+* sudo passwd -l: Lock a user's password to prevent login.
+* su -: Switch to another user account (with that user’s environment).
+* sudo usermod -a -G: Add an existing user to a group.
+
+# Shortcuts Commands
+
+## Bash Shortcuts: 
+Bash (Bourne Again SHell) is one of the most commonly used command-line interpreters (shells) on 
+Linux and Unix systems. It allows you to execute commands, run scripts, and perform various system tasks.
+
+* Ctrl+A: Move to the beginning of the line.
+* Ctrl+E: Move to the end of the line.
+* Ctrl+B: Move back one character.
+* Ctrl+F: Move forward one character.
+* Alt+B: Move back one word.
+* Alt+F: Move forward one word.
+* Ctrl+U: Cut from the cursor to the beginning of the line.
+* Ctrl+K: Cut from the cursor to the end of the line.
+* Ctrl+W: Cut the word before the cursor.
+* Ctrl+Y: Paste the last cut text.
+* Ctrl+R: Reverse search command history.
+* Ctrl+P: Go to the previous command in history.
+* Ctrl+N: Go to the next command in history.
+* Ctrl+L: Clear the screen.
+* Ctrl+C: Terminate the current command.
+* Ctrl+G: Exit history search mode.
+
+## Nano Shortcuts
+* Nano is a simple, user-friendly text editor that runs in the terminal. It’s designed to be easy to use for 
+beginners while still offering the essential features needed for editing text files.
+
+* Ctrl+O: Save the file.
+* Ctrl+X: Exit Nano.
+* Ctrl+R: Read a file into the current buffer.
+* Ctrl+J: Justify the current paragraph.
+* Ctrl+Y: Scroll up one page.
+* Ctrl+V: Scroll down one page.
+* Alt+\: Go to a specific line number.
+* Alt+,: Go to the beginning of the current line.
+* Alt+.: Go to the end of the current line.
+* Ctrl+K: Cut from the cursor to the end of the line.
+* Ctrl+U: Paste the last cut text.
+* Ctrl+6: Mark text for copying or cutting.
+* Alt+6: Copy the marked text.
+* Ctrl+W: Search for a string.
+* Alt+W: Search and replace a string.
+* Alt+R: Repeat the last search.
+
+## VI Shortcuts
+* vi is one of the oldest and most widely available text editors on Unix-like systems. It operates in different modes
+(such as command mode and insert mode) and is known for its efficiency and powerful editing capabilities once you learn its commands.
+
+* cw: Change the current word (delete to the end of the word and enter insert mode).
+* dd: Delete the current line.
+* x: Delete the character under the cursor.
+* R: Enter replace mode (overwrite until Esc is pressed).
+* o: Insert a new line below and enter insert mode.
+* u: Undo the last change.
+* s: Substitute the character under the cursor.
+* dw: Delete from the cursor to the beginning of the next word.
+* D: Delete from the cursor to the end of the line.
+* 4dw: Delete the next four words.
+* A: Enter insert mode at the end of the line.
+* S: Delete the entire line and enter insert mode.
+* r: Replace the character under the cursor.
+* i: Enter insert mode before the cursor.
+* 3dd: Delete the current line and the two lines below it.
+* ESC: Exit from insert or command mode.
+* U: Restore the current line to its original state.
+* ~: Toggle the case of the character under the cursor.
+* a: Enter insert mode after the cursor.
+* C: Delete from the cursor to the end of the line and enter insert mode.
+
+## Vim Shortcuts
+* Vim stands for “Vi Improved” and is an enhanced version of the vi editor. It retains the core modal editing features 
+* of vi but adds many improvements and additional functionalities, making it a popular choice among programmers and 
+* system administrators.
+
+* i: Enter insert mode at the cursor.
+* x: Delete the character under the cursor.
+* dd: Delete the current line.
+* yy: Copy the current line.
+* u: Undo the last change.
+* Ctrl+R: Redo the last undone change.
+* :w: Save the file.
+* :q: Quit Vim.
+* :q!: Quit Vim without saving.
+* :wq or :x: Save and quit Vim.
+* :s/old/new/g: Replace all occurrences of “old” with “new.”
+* :set nu or :set number: Display line numbers.
+* v: Enter visual mode to select text.
+* y: Copy the selected text.
+* d: Delete the selected text.
+* p: Paste the copied or deleted text.
+
+### Java
 
 Java is a high-level, class-based, object-oriented programming language that is designed to have a few implementation 
 dependencies as possible. Java was designed by James Gosling at Sun Microsystems. It was released in May 1995 as a core
@@ -85,4 +269,4 @@ games, software, and graphical user interfaces.
 
 * Key features of C++ programming languages
 Writing a program should follow a program structure, which starts with the #include statement that should be added to the
-headerd
+header.
