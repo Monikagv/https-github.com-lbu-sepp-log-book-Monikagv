@@ -42,11 +42,10 @@ testing, and maintaining software systems, applying systematic methodologies to 
 #  Where did Software Engineering come from?
 
 The concept of software engineering emerged in the late 1960s, with the recognition that computer programming required a
-disciplined approach similar to that of traditional engineering. Software Engineering emerged in the 1960s in response to 
-the "software crisis," when many large-scale projects were failing 
-or over budget due to inadequate development practices. It was driven by the need to apply engineering principles to 
-software development to improve quality, reliability, and manageability. During this period, key figures such as Dijkstra,
-Brooks and Knuth played a crucial role in shaping the field.
+disciplined approach similar to that of traditional engineering. Software Engineering emerged response to 
+the "software crisis," when many large-scale projects were failing or over budget due to inadequate development practices.
+It was driven by the need to apply engineering principles to software development to improve quality, reliability, and
+manageability. During this period, key figures such as Dijkstra, Brooks and Knuth played a crucial role in shaping the field.
 
 
 #  How has Software Engineering changed over the years?
@@ -138,7 +137,8 @@ From its humble beginnings to its current state, software engineering has come a
 programming to a discipline that encompasses principles, methodologies, and architectural patterns. As technology 
 continues to progress, software engineering will continue to evolve to meet the demands of an ever-changing world.
 
-TechVoyager, K. (2024). The Evolution of Software Engineering: From Principles to Practice. [online] Medium. Available at: https://kasata.medium.com/the-evolution-of-software-engineering-from-principles-to-practice-33d9a2cde0db [Accessed 2 Feb. 2025].
+TechVoyager, K. (2024). The Evolution of Software Engineering: From Principles to Practice. [online] Medium. Available 
+at: https://kasata.medium.com/the-evolution-of-software-engineering-from-principles-to-practice-33d9a2cde0db [Accessed 2 Feb. 2025].
 
 ‌
 

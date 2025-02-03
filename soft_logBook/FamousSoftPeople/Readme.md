@@ -86,5 +86,12 @@ writing code that is constantly checked for errors and quickly adapted to change
 He co-created Scrum, an Agile framework that organizes work into short periods (sprints) to make managing software
 projects easier and more flexible.
 
+ # Guido van Rossum
+
+ # Bjarne Stroustrup
+
+ # Kernighan and Ritchie
+
+ # James Gosling
 
 
