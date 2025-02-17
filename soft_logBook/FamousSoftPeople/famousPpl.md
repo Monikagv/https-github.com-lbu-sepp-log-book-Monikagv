@@ -10,6 +10,7 @@ which developed on-board flight software for NASA's Apollo program. She later fo
 software companies, Higher Order Software in 1976 and Hamilton Technologies in 1986, both 
 in Cambridge, Massachusetts.
 
+
 Half a century ago, MIT played a critical role in the development of the flight software for NASA’s Apollo program, 
 which landed humans on the Moon for the first time in 1969. One of the many contributors to this effort was Margaret 
 Hamilton, a computer scientist who led the Software Engineering Division of the MIT Instrumentation Laboratory,
