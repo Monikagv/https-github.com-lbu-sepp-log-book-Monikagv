@@ -1,3 +1,5 @@
+#from programming lesson semester 01/ 04weeks-functions
+
 #!/usr/bin/env python3
 def clean_sting(s):
     return ''.join([c for c in s if c.isalpha()])
