@@ -1,17 +1,12 @@
 #!usr/bin/env python3
 
-
-
-
   def get_student_id(line):
     return line[:9]
 
 
   def get_student_surname(line):
     student_surname = line[9:].find(',')[0]
-
-
-   return ''.join([c for c in first_name if c.isaplha()]).lower()
+    return ''.join([c for c in first_name if c.isaplha()]).lower()
 
   def get_student_initials(line)
     first_name = line.split(',')[1]
@@ -22,6 +17,10 @@
       import random
       import string
 
+  def generate_email_from_line():
+
+
+
 if c.isupper()])'__main__':
     sample_line = 'c123456 Smith, Jane Louis'
 
@@ -31,3 +30,4 @@ if c.isupper()])'__main__':
 
     print(get_four_random_digitis(4))
 
+    exit()
