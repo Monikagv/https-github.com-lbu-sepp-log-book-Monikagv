@@ -1,0 +1,10 @@
+
+
+graph TD;
+
+   A[Start] --> B[Process]
+    B --> C{Decision}
+    C -->|Yes| D[Continue]
+    C -->|No| E[Stop]
+    D --> F[End]
+    E --> F
