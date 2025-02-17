@@ -18,10 +18,10 @@
       import string
 
   def generate_email_from_line(line, domain = 'poppleton.ac.uk'):
-    initials = get_student_id(line)
-    surname = get_student_surname(line)
+    initials = get_student_id(sample_line)
+    surname = get_student_surname(sample_line)
 
-if c.isupper()])'__main__':
+if c.isupper()'__main__':
     sample_line = 'c123456 Smith, Jane Louis'
 
     print(get_student_id(sample_line))
@@ -29,5 +29,6 @@ if c.isupper()])'__main__':
     print(get_student_initials(sample_line))
 
     print(get_four_random_digitis(4))
+    print(generate_email_from_line(sample_line))
 
     exit()
