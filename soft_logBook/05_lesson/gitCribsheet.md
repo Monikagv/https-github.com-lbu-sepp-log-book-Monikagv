@@ -13,12 +13,13 @@ graphical user interface or the command line. The command line— also known as 
 * or shell— is a place where you can type text-based commands to interact with your computer.
 
 
-* Source: https://ebookcentral.proquest.com/lib/leeds-beck/reader.action?docID=30577933&ppg=25#
+Source: https://ebookcentral.proquest.com/lib/leeds-beck/reader.action?docID=30577933&ppg=25#
 
 * commands:
 * git version - it will provide a version number that you have installed
 * git commit -m "<message>" - uses to upload commits to git
 * clear - simple command to clear all the commands for better visualisation
+* pwd - show the path to the current directory
 * 
 
 ## Command options and arguments
